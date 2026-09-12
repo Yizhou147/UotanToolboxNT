@@ -10,6 +10,8 @@ using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Material.Icons;
+using SukiUI.Dialogs;
+using SukiUI.Toasts;
 using UotanToolbox.Common;
 
 namespace UotanToolbox.Features.UsbManager;
@@ -17,14 +19,14 @@ namespace UotanToolbox.Features.UsbManager;
 /// <summary>设备列表中的一行（存储设备/分区/USB 设备/MTP 子项）</summary>
 public partial class UsbRowViewModel : ObservableObject
 {
-    public string Name { get; init; } = "";
-    public string Info { get; init; } = "";
-    public string Size { get; init; } = "";
-    public string Fs { get; init; } = "";
-    public string Status { get; init; } = "";
-    public IBrush? StatusBrush { get; init; }
-    public int Indent { get; init; }
-    public bool IsBold { get; init; }
+    public string Name { get; set; } = "";
+    public string Info { get; set; } = "";
+    public string Size { get; set; } = "";
+    public string Fs { get; set; } = "";
+    public string Status { get; set; } = "";
+    public IBrush? StatusBrush { get; set; }
+    public int Indent { get; set; }
+    public bool IsBold { get; set; }
     public bool IsIndented => Indent > 0;
     public ObservableCollection<UsbButtonViewModel> Buttons { get; } = [];
 }
@@ -138,8 +140,7 @@ public partial class UsbManagerViewModel : MainPageBase
             _prepBusy = true;
             try
             {
-                List<(string Name, string MountPoint)> events = await Task.Run(() => PrepareDevicesAsync(storage, others));
-                foreach ((string name, string mp) in events)
+                List<(string Name, string MountPoint)> events = await Task.Run(() => PrepareDevicesAsync(storage, others));                foreach ((string name, string mp) in events)
                 {
                     ShowToast(string.Format(GetTranslation("Usb_AutoMounted"), name, mp));
                 }
@@ -162,11 +163,11 @@ public partial class UsbManagerViewModel : MainPageBase
     }
 
     /// <summary>后台线程：集中执行所有阻塞操作（清理/自动挂载/ADB 节点/MTP/UVC），返回自动挂载事件</summary>
-    private List<(string Name, string MountPoint)> PrepareDevicesAsync(
+    private async Task<List<(string Name, string MountPoint)>> PrepareDevicesAsync(
         List<UsbStorageInfo> storage, List<UsbDeviceInfo> others)
     {
         List<(string, string)> events = [];
-        _ = UsbHardware.CleanupMountPointsAsync().Result;
+        await UsbHardware.CleanupMountPointsAsync();
 
         if (!_ejectPause)
         {

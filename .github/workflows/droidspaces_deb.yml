@@ -15,6 +15,17 @@ on:
         type: boolean
         required: true
         default: false
+  # fork 仓库 workflow 注册表只认默认分支；workflow_dispatch 在注册前会 404。
+  # 因此附带 push 触发（仅本分支且仅当本文件变更），保证分支上可直接云编译。
+  push:
+    branches:
+      - feat/droidspaces-usb-manager
+    paths:
+      - '.github/workflows/droidspaces_deb.yml'
+
+env:
+  BUILD_VERSION: ${{ inputs.VERSION || '3.7.1-ds2' }}
+  BUILD_BINARY_BRANCH: ${{ inputs.BINARY_BRANCH || 'main' }}
 
 jobs:
   droidspaces-deb:
@@ -27,13 +38,13 @@ jobs:
         dotnet-version: 10.0.x
 
     - name: Download NuGet package
-      if: ${{ inputs.NEED_NUPKG }}
+      if: ${{ inputs.NEED_NUPKG == true }}
       run: |
         wget https://github.com/Uotan-Dev/SukiUI-Uotan/releases/download/v6.0.0/SukiUI.6.0.0.nupkg
         dotnet nuget add source "/home/runner/work/UotanToolboxNT"
 
     - name: Clone Binary
-      run: git clone https://github.com/Uotan-Dev/UotanToolboxNT.Binary.git -b ${{ inputs.BINARY_BRANCH }}
+      run: git clone https://github.com/Uotan-Dev/UotanToolboxNT.Binary.git -b ${{ env.BUILD_BINARY_BRANCH }}
 
     - name: Build
       run: dotnet publish -r linux-arm64 --self-contained true -o ./publish-arm64
@@ -60,7 +71,7 @@ jobs:
         cp UotanToolbox/Assets/Linux/UotanToolbox.desktop ./staging_folder/usr/share/applications/UotanToolbox.desktop
         mkdir ./staging_folder/usr/share/pixmaps
         cp UotanToolbox/Assets/Linux/UotanToolbox.png ./staging_folder/usr/share/pixmaps/UotanToolbox.png
-        dpkg-deb --root-owner-group --build ./staging_folder/ ./UotanToolbox_Droidspaces_arm64_${{ inputs.VERSION }}.deb
+        dpkg-deb --root-owner-group --build ./staging_folder/ ./UotanToolbox_Droidspaces_arm64_${{ env.BUILD_VERSION }}.deb
 
     - name: Upload
       uses: actions/upload-artifact@v4

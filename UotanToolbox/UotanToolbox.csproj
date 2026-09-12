@@ -66,7 +66,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<AvaloniaResource Include="Assets\**" />
+		<AvaloniaResource Include="Assets\**" Exclude="Assets\USB\**" />
+	</ItemGroup>
+
+	<!-- USB 直通脚本随包复制到输出目录（deb 安装到 /usr/lib/UotanToolbox/Assets/USB） -->
+	<ItemGroup>
+		<Content Include="Assets\USB\**" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 
 	<ItemGroup>

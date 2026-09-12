@@ -5686,5 +5686,509 @@ namespace UotanToolbox.Assets {
                 return ResourceManager.GetString("WirelessADB_Connect", resourceCulture);
             }
         }
+        /// <summary>
+        ///   Looks up a localized string similar to the Sidebar_UsbManager resource.
+        /// </summary>
+        public static string Sidebar_UsbManager {
+            get {
+                return ResourceManager.GetString("Sidebar_UsbManager", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Title resource.
+        /// </summary>
+        public static string Usb_Title {
+            get {
+                return ResourceManager.GetString("Usb_Title", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Description resource.
+        /// </summary>
+        public static string Usb_Description {
+            get {
+                return ResourceManager.GetString("Usb_Description", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Refresh resource.
+        /// </summary>
+        public static string Usb_Refresh {
+            get {
+                return ResourceManager.GetString("Usb_Refresh", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_AutoScan resource.
+        /// </summary>
+        public static string Usb_AutoScan {
+            get {
+                return ResourceManager.GetString("Usb_AutoScan", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Interval resource.
+        /// </summary>
+        public static string Usb_Interval {
+            get {
+                return ResourceManager.GetString("Usb_Interval", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Ready resource.
+        /// </summary>
+        public static string Usb_Ready {
+            get {
+                return ResourceManager.GetString("Usb_Ready", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Scanning resource.
+        /// </summary>
+        public static string Usb_Scanning {
+            get {
+                return ResourceManager.GetString("Usb_Scanning", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_NoDevice resource.
+        /// </summary>
+        public static string Usb_NoDevice {
+            get {
+                return ResourceManager.GetString("Usb_NoDevice", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ColDevice resource.
+        /// </summary>
+        public static string Usb_ColDevice {
+            get {
+                return ResourceManager.GetString("Usb_ColDevice", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ColSize resource.
+        /// </summary>
+        public static string Usb_ColSize {
+            get {
+                return ResourceManager.GetString("Usb_ColSize", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ColFs resource.
+        /// </summary>
+        public static string Usb_ColFs {
+            get {
+                return ResourceManager.GetString("Usb_ColFs", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ColStatus resource.
+        /// </summary>
+        public static string Usb_ColStatus {
+            get {
+                return ResourceManager.GetString("Usb_ColStatus", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ColAction resource.
+        /// </summary>
+        public static string Usb_ColAction {
+            get {
+                return ResourceManager.GetString("Usb_ColAction", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Connected resource.
+        /// </summary>
+        public static string Usb_Connected {
+            get {
+                return ResourceManager.GetString("Usb_Connected", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Disconnected resource.
+        /// </summary>
+        public static string Usb_Disconnected {
+            get {
+                return ResourceManager.GetString("Usb_Disconnected", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Mounted resource.
+        /// </summary>
+        public static string Usb_Mounted {
+            get {
+                return ResourceManager.GetString("Usb_Mounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Unmounted resource.
+        /// </summary>
+        public static string Usb_Unmounted {
+            get {
+                return ResourceManager.GetString("Usb_Unmounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Unknown resource.
+        /// </summary>
+        public static string Usb_Unknown {
+            get {
+                return ResourceManager.GetString("Usb_Unknown", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Open resource.
+        /// </summary>
+        public static string Usb_Open {
+            get {
+                return ResourceManager.GetString("Usb_Open", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Eject resource.
+        /// </summary>
+        public static string Usb_Eject {
+            get {
+                return ResourceManager.GetString("Usb_Eject", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Mount resource.
+        /// </summary>
+        public static string Usb_Mount {
+            get {
+                return ResourceManager.GetString("Usb_Mount", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Connect resource.
+        /// </summary>
+        public static string Usb_Connect {
+            get {
+                return ResourceManager.GetString("Usb_Connect", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Preview resource.
+        /// </summary>
+        public static string Usb_Preview {
+            get {
+                return ResourceManager.GetString("Usb_Preview", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_MtpStorage resource.
+        /// </summary>
+        public static string Usb_MtpStorage {
+            get {
+                return ResourceManager.GetString("Usb_MtpStorage", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_MtpMounted resource.
+        /// </summary>
+        public static string Usb_MtpMounted {
+            get {
+                return ResourceManager.GetString("Usb_MtpMounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_MtpUnmounted resource.
+        /// </summary>
+        public static string Usb_MtpUnmounted {
+            get {
+                return ResourceManager.GetString("Usb_MtpUnmounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeHub resource.
+        /// </summary>
+        public static string Usb_TypeHub {
+            get {
+                return ResourceManager.GetString("Usb_TypeHub", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeHid resource.
+        /// </summary>
+        public static string Usb_TypeHid {
+            get {
+                return ResourceManager.GetString("Usb_TypeHid", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeAudio resource.
+        /// </summary>
+        public static string Usb_TypeAudio {
+            get {
+                return ResourceManager.GetString("Usb_TypeAudio", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeVideo resource.
+        /// </summary>
+        public static string Usb_TypeVideo {
+            get {
+                return ResourceManager.GetString("Usb_TypeVideo", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeNetwork resource.
+        /// </summary>
+        public static string Usb_TypeNetwork {
+            get {
+                return ResourceManager.GetString("Usb_TypeNetwork", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeStorage resource.
+        /// </summary>
+        public static string Usb_TypeStorage {
+            get {
+                return ResourceManager.GetString("Usb_TypeStorage", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypePrinter resource.
+        /// </summary>
+        public static string Usb_TypePrinter {
+            get {
+                return ResourceManager.GetString("Usb_TypePrinter", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeAdb resource.
+        /// </summary>
+        public static string Usb_TypeAdb {
+            get {
+                return ResourceManager.GetString("Usb_TypeAdb", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeFastboot resource.
+        /// </summary>
+        public static string Usb_TypeFastboot {
+            get {
+                return ResourceManager.GetString("Usb_TypeFastboot", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeVendor resource.
+        /// </summary>
+        public static string Usb_TypeVendor {
+            get {
+                return ResourceManager.GetString("Usb_TypeVendor", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_TypeUnknown resource.
+        /// </summary>
+        public static string Usb_TypeUnknown {
+            get {
+                return ResourceManager.GetString("Usb_TypeUnknown", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_StatusStorage resource.
+        /// </summary>
+        public static string Usb_StatusStorage {
+            get {
+                return ResourceManager.GetString("Usb_StatusStorage", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_StatusOther resource.
+        /// </summary>
+        public static string Usb_StatusOther {
+            get {
+                return ResourceManager.GetString("Usb_StatusOther", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_StatusMounted resource.
+        /// </summary>
+        public static string Usb_StatusMounted {
+            get {
+                return ResourceManager.GetString("Usb_StatusMounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Detected resource.
+        /// </summary>
+        public static string Usb_Detected {
+            get {
+                return ResourceManager.GetString("Usb_Detected", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_AutoMounted resource.
+        /// </summary>
+        public static string Usb_AutoMounted {
+            get {
+                return ResourceManager.GetString("Usb_AutoMounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_Ejected resource.
+        /// </summary>
+        public static string Usb_Ejected {
+            get {
+                return ResourceManager.GetString("Usb_Ejected", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrTitle resource.
+        /// </summary>
+        public static string Usb_ErrTitle {
+            get {
+                return ResourceManager.GetString("Usb_ErrTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrMount resource.
+        /// </summary>
+        public static string Usb_ErrMount {
+            get {
+                return ResourceManager.GetString("Usb_ErrMount", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrEject resource.
+        /// </summary>
+        public static string Usb_ErrEject {
+            get {
+                return ResourceManager.GetString("Usb_ErrEject", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrOpenDir resource.
+        /// </summary>
+        public static string Usb_ErrOpenDir {
+            get {
+                return ResourceManager.GetString("Usb_ErrOpenDir", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrPreview resource.
+        /// </summary>
+        public static string Usb_ErrPreview {
+            get {
+                return ResourceManager.GetString("Usb_ErrPreview", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrPreviewerMissing resource.
+        /// </summary>
+        public static string Usb_ErrPreviewerMissing {
+            get {
+                return ResourceManager.GetString("Usb_ErrPreviewerMissing", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrGio resource.
+        /// </summary>
+        public static string Usb_ErrGio {
+            get {
+                return ResourceManager.GetString("Usb_ErrGio", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrMtpMount resource.
+        /// </summary>
+        public static string Usb_ErrMtpMount {
+            get {
+                return ResourceManager.GetString("Usb_ErrMtpMount", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrMtpUnmount resource.
+        /// </summary>
+        public static string Usb_ErrMtpUnmount {
+            get {
+                return ResourceManager.GetString("Usb_ErrMtpUnmount", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrMtpNotMounted resource.
+        /// </summary>
+        public static string Usb_ErrMtpNotMounted {
+            get {
+                return ResourceManager.GetString("Usb_ErrMtpNotMounted", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrScriptMissing resource.
+        /// </summary>
+        public static string Usb_ErrScriptMissing {
+            get {
+                return ResourceManager.GetString("Usb_ErrScriptMissing", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to the Usb_ErrNotLinux resource.
+        /// </summary>
+        public static string Usb_ErrNotLinux {
+            get {
+                return ResourceManager.GetString("Usb_ErrNotLinux", resourceCulture);
+            }
+        }
+
     }
 }

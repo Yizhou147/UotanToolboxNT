@@ -2063,4 +2063,178 @@ ADB下填写序号，一次一个！</value>
   <data name="Appmgr_StateUnknown" xml:space="preserve">
     <value>状态未知</value>
   </data>
+  <data name="Sidebar_UsbManager" xml:space="preserve">
+    <value>USB 管理器</value>
+  </data>
+  <data name="Usb_Title" xml:space="preserve">
+    <value>Droidspaces USB 管理器</value>
+  </data>
+  <data name="Usb_Description" xml:space="preserve">
+    <value>在 Droidspaces 容器中检测、挂载和管理 USB 设备</value>
+  </data>
+  <data name="Usb_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Usb_AutoScan" xml:space="preserve">
+    <value>自动扫描</value>
+  </data>
+  <data name="Usb_Interval" xml:space="preserve">
+    <value>间隔（秒）</value>
+  </data>
+  <data name="Usb_Ready" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="Usb_Scanning" xml:space="preserve">
+    <value>扫描中...</value>
+  </data>
+  <data name="Usb_NoDevice" xml:space="preserve">
+    <value>未检测到 USB 设备</value>
+  </data>
+  <data name="Usb_ColDevice" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="Usb_ColSize" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Usb_ColFs" xml:space="preserve">
+    <value>文件系统</value>
+  </data>
+  <data name="Usb_ColStatus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Usb_ColAction" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Usb_Connected" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="Usb_Disconnected" xml:space="preserve">
+    <value>未连接</value>
+  </data>
+  <data name="Usb_Mounted" xml:space="preserve">
+    <value>已挂载</value>
+  </data>
+  <data name="Usb_Unmounted" xml:space="preserve">
+    <value>未挂载</value>
+  </data>
+  <data name="Usb_Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Usb_Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Usb_Eject" xml:space="preserve">
+    <value>弹出</value>
+  </data>
+  <data name="Usb_Mount" xml:space="preserve">
+    <value>挂载</value>
+  </data>
+  <data name="Usb_Connect" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="Usb_Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Usb_MtpStorage" xml:space="preserve">
+    <value>MTP 存储</value>
+  </data>
+  <data name="Usb_MtpMounted" xml:space="preserve">
+    <value>MTP 已挂载</value>
+  </data>
+  <data name="Usb_MtpUnmounted" xml:space="preserve">
+    <value>MTP 已卸载</value>
+  </data>
+  <data name="Usb_TypeHub" xml:space="preserve">
+    <value>USB 集线器</value>
+  </data>
+  <data name="Usb_TypeHid" xml:space="preserve">
+    <value>HID 设备</value>
+  </data>
+  <data name="Usb_TypeAudio" xml:space="preserve">
+    <value>音频设备</value>
+  </data>
+  <data name="Usb_TypeVideo" xml:space="preserve">
+    <value>视频设备</value>
+  </data>
+  <data name="Usb_TypeNetwork" xml:space="preserve">
+    <value>网络设备</value>
+  </data>
+  <data name="Usb_TypeStorage" xml:space="preserve">
+    <value>存储设备</value>
+  </data>
+  <data name="Usb_TypePrinter" xml:space="preserve">
+    <value>打印机</value>
+  </data>
+  <data name="Usb_TypeAdb" xml:space="preserve">
+    <value>ADB</value>
+  </data>
+  <data name="Usb_TypeFastboot" xml:space="preserve">
+    <value>Fastboot</value>
+  </data>
+  <data name="Usb_TypeVendor" xml:space="preserve">
+    <value>厂商专用设备</value>
+  </data>
+  <data name="Usb_TypeUnknown" xml:space="preserve">
+    <value>USB 设备</value>
+  </data>
+  <data name="Usb_StatusStorage" xml:space="preserve">
+    <value>{0} 个存储设备</value>
+  </data>
+  <data name="Usb_StatusOther" xml:space="preserve">
+    <value>{0} 个 USB 设备</value>
+  </data>
+  <data name="Usb_StatusMounted" xml:space="preserve">
+    <value>{0} 个分区已挂载</value>
+  </data>
+  <data name="Usb_Detected" xml:space="preserve">
+    <value>检测到 {0}</value>
+  </data>
+  <data name="Usb_AutoMounted" xml:space="preserve">
+    <value>已自动挂载 {0} 到 {1}</value>
+  </data>
+  <data name="Usb_Ejected" xml:space="preserve">
+    <value>{0} 已弹出 - 自动扫描已暂停，点击 刷新 恢复</value>
+  </data>
+  <data name="Usb_ErrTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Usb_ErrMount" xml:space="preserve">
+    <value>无法挂载设备:
+{0}</value>
+  </data>
+  <data name="Usb_ErrEject" xml:space="preserve">
+    <value>无法弹出:
+{0}</value>
+  </data>
+  <data name="Usb_ErrOpenDir" xml:space="preserve">
+    <value>无法打开目录:
+{0}</value>
+  </data>
+  <data name="Usb_ErrPreview" xml:space="preserve">
+    <value>无法预览采集画面:
+{0}</value>
+  </data>
+  <data name="Usb_ErrPreviewerMissing" xml:space="preserve">
+    <value>未安装 ffplay/mpv，无法预览，请安装 ffmpeg</value>
+  </data>
+  <data name="Usb_ErrGio" xml:space="preserve">
+    <value>未找到 gio，请安装 gvfs-backends</value>
+  </data>
+  <data name="Usb_ErrMtpMount" xml:space="preserve">
+    <value>无法挂载 MTP:
+{0}</value>
+  </data>
+  <data name="Usb_ErrMtpUnmount" xml:space="preserve">
+    <value>无法卸载 MTP:
+{0}</value>
+  </data>
+  <data name="Usb_ErrMtpNotMounted" xml:space="preserve">
+    <value>MTP 未挂载为本地目录（请确认 gvfsd-fuse 已运行）</value>
+  </data>
+  <data name="Usb_ErrScriptMissing" xml:space="preserve">
+    <value>找不到脚本: {0}</value>
+  </data>
+  <data name="Usb_ErrNotLinux" xml:space="preserve">
+    <value>USB 管理器仅在 Linux（Droidspaces 专版）下可用</value>
+  </data>
 </root>

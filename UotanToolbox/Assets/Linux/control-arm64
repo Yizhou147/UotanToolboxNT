@@ -6,6 +6,7 @@ Priority: optional
 Architecture: arm64
 Essential: no
 Installed-Size: 268000
-Depends: usbutils, android-tools-adb
-Description: Advanced, Modern Toolbox for Geeks.
+Depends: usbutils, android-tools-adb, ntfs-3g, exfatprogs, gvfs-backends, gvfs-fuse
+Recommends: ffmpeg, dolphin
+Description: Advanced, Modern Toolbox for Geeks. Droidspaces edition with USB manager.
 Copyright: 2020-2026 UOTAN

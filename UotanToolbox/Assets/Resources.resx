@@ -2063,4 +2063,178 @@ If you don't understand the above, please ignore it. The selection command only 
   <data name="Appmgr_StateUnknown" xml:space="preserve">
     <value>State Unknown</value>
   </data>
+  <data name="Sidebar_UsbManager" xml:space="preserve">
+    <value>USB Manager</value>
+  </data>
+  <data name="Usb_Title" xml:space="preserve">
+    <value>Droidspaces USB Manager</value>
+  </data>
+  <data name="Usb_Description" xml:space="preserve">
+    <value>Detect, mount and manage USB devices in the Droidspaces container</value>
+  </data>
+  <data name="Usb_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Usb_AutoScan" xml:space="preserve">
+    <value>Auto scan</value>
+  </data>
+  <data name="Usb_Interval" xml:space="preserve">
+    <value>Interval (s)</value>
+  </data>
+  <data name="Usb_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Usb_Scanning" xml:space="preserve">
+    <value>Scanning...</value>
+  </data>
+  <data name="Usb_NoDevice" xml:space="preserve">
+    <value>No USB device detected</value>
+  </data>
+  <data name="Usb_ColDevice" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Usb_ColSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Usb_ColFs" xml:space="preserve">
+    <value>Filesystem</value>
+  </data>
+  <data name="Usb_ColStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Usb_ColAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Usb_Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="Usb_Disconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="Usb_Mounted" xml:space="preserve">
+    <value>Mounted</value>
+  </data>
+  <data name="Usb_Unmounted" xml:space="preserve">
+    <value>Unmounted</value>
+  </data>
+  <data name="Usb_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Usb_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Usb_Eject" xml:space="preserve">
+    <value>Eject</value>
+  </data>
+  <data name="Usb_Mount" xml:space="preserve">
+    <value>Mount</value>
+  </data>
+  <data name="Usb_Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="Usb_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Usb_MtpStorage" xml:space="preserve">
+    <value>MTP Storage</value>
+  </data>
+  <data name="Usb_MtpMounted" xml:space="preserve">
+    <value>MTP mounted</value>
+  </data>
+  <data name="Usb_MtpUnmounted" xml:space="preserve">
+    <value>MTP unmounted</value>
+  </data>
+  <data name="Usb_TypeHub" xml:space="preserve">
+    <value>USB Hub</value>
+  </data>
+  <data name="Usb_TypeHid" xml:space="preserve">
+    <value>HID Device</value>
+  </data>
+  <data name="Usb_TypeAudio" xml:space="preserve">
+    <value>Audio Device</value>
+  </data>
+  <data name="Usb_TypeVideo" xml:space="preserve">
+    <value>Video Device</value>
+  </data>
+  <data name="Usb_TypeNetwork" xml:space="preserve">
+    <value>Network Device</value>
+  </data>
+  <data name="Usb_TypeStorage" xml:space="preserve">
+    <value>Storage Device</value>
+  </data>
+  <data name="Usb_TypePrinter" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="Usb_TypeAdb" xml:space="preserve">
+    <value>ADB</value>
+  </data>
+  <data name="Usb_TypeFastboot" xml:space="preserve">
+    <value>Fastboot</value>
+  </data>
+  <data name="Usb_TypeVendor" xml:space="preserve">
+    <value>Vendor Specific</value>
+  </data>
+  <data name="Usb_TypeUnknown" xml:space="preserve">
+    <value>USB Device</value>
+  </data>
+  <data name="Usb_StatusStorage" xml:space="preserve">
+    <value>{0} storage device(s)</value>
+  </data>
+  <data name="Usb_StatusOther" xml:space="preserve">
+    <value>{0} USB device(s)</value>
+  </data>
+  <data name="Usb_StatusMounted" xml:space="preserve">
+    <value>{0} partition(s) mounted</value>
+  </data>
+  <data name="Usb_Detected" xml:space="preserve">
+    <value>Detected: {0}</value>
+  </data>
+  <data name="Usb_AutoMounted" xml:space="preserve">
+    <value>{0} auto mounted at {1}</value>
+  </data>
+  <data name="Usb_Ejected" xml:space="preserve">
+    <value>{0} ejected - auto scan paused, click Refresh to resume</value>
+  </data>
+  <data name="Usb_ErrTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Usb_ErrMount" xml:space="preserve">
+    <value>Cannot mount device:
+{0}</value>
+  </data>
+  <data name="Usb_ErrEject" xml:space="preserve">
+    <value>Cannot eject:
+{0}</value>
+  </data>
+  <data name="Usb_ErrOpenDir" xml:space="preserve">
+    <value>Cannot open directory:
+{0}</value>
+  </data>
+  <data name="Usb_ErrPreview" xml:space="preserve">
+    <value>Cannot preview capture:
+{0}</value>
+  </data>
+  <data name="Usb_ErrPreviewerMissing" xml:space="preserve">
+    <value>ffplay/mpv not found. Install ffmpeg to preview</value>
+  </data>
+  <data name="Usb_ErrGio" xml:space="preserve">
+    <value>gio not found. Install gvfs-backends</value>
+  </data>
+  <data name="Usb_ErrMtpMount" xml:space="preserve">
+    <value>Cannot mount MTP:
+{0}</value>
+  </data>
+  <data name="Usb_ErrMtpUnmount" xml:space="preserve">
+    <value>Cannot unmount MTP:
+{0}</value>
+  </data>
+  <data name="Usb_ErrMtpNotMounted" xml:space="preserve">
+    <value>MTP is not mounted as a local directory (check gvfsd-fuse is running)</value>
+  </data>
+  <data name="Usb_ErrScriptMissing" xml:space="preserve">
+    <value>Script not found: {0}</value>
+  </data>
+  <data name="Usb_ErrNotLinux" xml:space="preserve">
+    <value>USB Manager is only available on Linux (Droidspaces edition)</value>
+  </data>
 </root>
